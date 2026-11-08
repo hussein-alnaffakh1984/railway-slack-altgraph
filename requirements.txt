@@ -1,0 +1,4 @@
+pulp<4
+numpy
+scipy
+matplotlib

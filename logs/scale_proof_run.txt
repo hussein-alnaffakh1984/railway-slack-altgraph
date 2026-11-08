@@ -1,0 +1,4 @@
+K7s2 seed1: best=149 proven=True lower_bound=None time=3s
+K8s2 seed1: best=158 proven=True lower_bound=None time=84s
+K9s2 seed1: best=177 proven=False lower_bound=175.000 time=300s
+K10s2 seed1: best=190 proven=False lower_bound=148.079 time=301s

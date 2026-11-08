@@ -1,0 +1,86 @@
+inst        L0    bind | budget  uniform targeted  verdict
+K3s2#1  -16.0     [0] |     4  -17.3333     -20.0  targeted better
+K3s2#1  -16.0     [0] |     8  -18.6667     -22.0  targeted better
+K4s2#1   -7.0     [1] |     4     -8.0     -11.0  targeted better
+K4s2#1   -7.0     [1] |     8     -9.0     -15.0  targeted better
+K5s2#1   20.0     [0] |     4     19.2      16.0  targeted better
+K5s2#1   20.0     [0] |     8     18.4      12.0  targeted better
+K5s3#1   11.0     [1] |     4     10.2       7.0  targeted better
+K5s3#1   11.0     [1] |     8      9.4       3.0  targeted better
+K6s2#1   30.0     [1] |     4  29.3333      26.0  targeted better
+K6s2#1   30.0     [1] |     8  28.6667      22.0  targeted better
+K3s2#2   11.0     [1] |     4   9.6667       7.0  targeted better
+K3s2#2   11.0     [1] |     8   8.3333       3.0  targeted better
+K4s2#2   15.0     [0] |     4     14.0      11.0  targeted better
+K4s2#2   15.0     [0] |     8     13.0       7.0  targeted better
+K5s2#2   22.0     [0] |     4     21.2      18.0  targeted better
+K5s2#2   22.0     [0] |     8     20.4      16.0  targeted better
+K5s3#2   23.0     [1] |     4     22.2      19.0  targeted better
+K5s3#2   23.0     [1] |     8     21.4      15.0  targeted better
+K6s2#2   43.0     [0] |     4  42.3333      39.0  targeted better
+K6s2#2   43.0     [0] |     8  41.6667      35.0  targeted better
+K3s2#3   -3.0     [2] |     4  -4.3333      -7.0  targeted better
+K3s2#3   -3.0     [2] |     8  -5.6667     -11.0  targeted better
+K4s2#3    1.0     [0] |     4      0.0      -3.0  targeted better
+K4s2#3    1.0     [0] |     8     -1.0      -7.0  targeted better
+K5s2#3   12.0     [0] |     4     11.2       9.0  targeted better
+K5s2#3   12.0     [0] |     8     10.4       7.0  targeted better
+K5s3#3    3.0     [0] |     4      2.2       1.0  targeted better
+K5s3#3    3.0     [0] |     8      1.4      -3.0  targeted better
+K6s2#3   30.0     [0] |     4  29.3333      26.0  targeted better
+K6s2#3   30.0     [0] |     8  28.6667      22.0  targeted better
+K3s2#4   -2.0     [0] |     4  -3.3333      -6.0  targeted better
+K3s2#4   -2.0     [0] |     8  -4.6667      -7.0  targeted better
+K4s2#4    5.0     [0] |     4      4.0       4.0  equal
+K4s2#4    5.0     [0] |     8      3.0       4.0  targeted WORSE
+K5s2#4   23.0     [1] |     4     22.2      20.0  targeted better
+K5s2#4   23.0     [1] |     8     21.4      20.0  targeted better
+K5s3#4   -2.0     [0] |     4     -2.8      -3.0  targeted better
+K5s3#4   -2.0     [0] |     8     -3.6      -3.0  targeted WORSE
+K6s2#4   28.0     [3] |     4  27.3333      24.0  targeted better
+K6s2#4   28.0     [3] |     8  26.6667      24.0  targeted better
+
+Total cases 40: single-binding hypothesis holds in 40; targeted better 37, equal 1, worse 2 (worse while hypothesis holds: 2)
+single-binding hypothesis holds STRICTLY along segment: 22/40
+single-target vs uniform: better 37, equal 1, worse 2  (worse while hypothesis holds: 0)
+sequential  vs uniform:   better 40, equal 0, worse 0
+('K3s2#1', 4, -16.0, 0, -17.333, -20.0, -20.0, True, 'better', 'better')
+('K3s2#1', 8, -16.0, 0, -18.667, -22.0, -23.0, False, 'better', 'better')
+('K4s2#1', 4, -7.0, 1, -8.0, -11.0, -11.0, True, 'better', 'better')
+('K4s2#1', 8, -7.0, 1, -9.0, -15.0, -15.0, True, 'better', 'better')
+('K5s2#1', 4, 20.0, 0, 19.2, 16.0, 16.0, True, 'better', 'better')
+('K5s2#1', 8, 20.0, 0, 18.4, 12.0, 12.0, True, 'better', 'better')
+('K5s3#1', 4, 11.0, 1, 10.2, 7.0, 7.0, False, 'better', 'better')
+('K5s3#1', 8, 11.0, 1, 9.4, 3.0, 3.0, True, 'better', 'better')
+('K6s2#1', 4, 30.0, 1, 29.333, 26.0, 26.0, True, 'better', 'better')
+('K6s2#1', 8, 30.0, 1, 28.667, 22.0, 22.0, True, 'better', 'better')
+('K3s2#2', 4, 11.0, 1, 9.667, 7.0, 7.0, True, 'better', 'better')
+('K3s2#2', 8, 11.0, 1, 8.333, 3.0, 3.0, True, 'better', 'better')
+('K4s2#2', 4, 15.0, 0, 14.0, 11.0, 11.0, True, 'better', 'better')
+('K4s2#2', 8, 15.0, 0, 13.0, 7.0, 7.0, True, 'better', 'better')
+('K5s2#2', 4, 22.0, 0, 21.2, 18.0, 18.0, True, 'better', 'better')
+('K5s2#2', 8, 22.0, 0, 20.4, 16.0, 15.0, False, 'better', 'better')
+('K5s3#2', 4, 23.0, 1, 22.2, 19.0, 19.0, False, 'better', 'better')
+('K5s3#2', 8, 23.0, 1, 21.4, 15.0, 15.0, False, 'better', 'better')
+('K6s2#2', 4, 43.0, 0, 42.333, 39.0, 39.0, True, 'better', 'better')
+('K6s2#2', 8, 43.0, 0, 41.667, 35.0, 35.0, True, 'better', 'better')
+('K3s2#3', 4, -3.0, 2, -4.333, -7.0, -7.0, True, 'better', 'better')
+('K3s2#3', 8, -3.0, 2, -5.667, -11.0, -11.0, True, 'better', 'better')
+('K4s2#3', 4, 1.0, 0, 0.0, -3.0, -3.0, True, 'better', 'better')
+('K4s2#3', 8, 1.0, 0, -1.0, -7.0, -7.0, True, 'better', 'better')
+('K5s2#3', 4, 12.0, 0, 11.2, 9.0, 9.0, False, 'better', 'better')
+('K5s2#3', 8, 12.0, 0, 10.4, 7.0, 7.0, False, 'better', 'better')
+('K5s3#3', 4, 3.0, 0, 2.2, 1.0, 1.0, False, 'better', 'better')
+('K5s3#3', 8, 3.0, 0, 1.4, -3.0, -1.0, False, 'better', 'better')
+('K6s2#3', 4, 30.0, 0, 29.333, 26.0, 26.0, True, 'better', 'better')
+('K6s2#3', 8, 30.0, 0, 28.667, 22.0, 22.0, True, 'better', 'better')
+('K3s2#4', 4, -2.0, 0, -3.333, -6.0, -6.0, True, 'better', 'better')
+('K3s2#4', 8, -2.0, 0, -4.667, -7.0, -8.0, False, 'better', 'better')
+('K4s2#4', 4, 5.0, 0, 4.0, 4.0, 3.0, False, 'equal', 'better')
+('K4s2#4', 8, 5.0, 0, 3.0, 4.0, 1.0, False, 'worse', 'better')
+('K5s2#4', 4, 23.0, 1, 22.2, 20.0, 20.0, False, 'better', 'better')
+('K5s2#4', 8, 23.0, 1, 21.4, 20.0, 18.0, False, 'better', 'better')
+('K5s3#4', 4, -2.0, 0, -2.8, -3.0, -4.0, False, 'better', 'better')
+('K5s3#4', 8, -2.0, 0, -3.6, -3.0, -6.0, False, 'worse', 'better')
+('K6s2#4', 4, 28.0, 3, 27.333, 24.0, 24.0, False, 'better', 'better')
+('K6s2#4', 8, 28.0, 3, 26.667, 24.0, 22.0, False, 'better', 'better')
