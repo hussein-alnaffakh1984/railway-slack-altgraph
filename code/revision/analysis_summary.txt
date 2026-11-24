@@ -1,0 +1,50 @@
+
+=== published: 1 instances (0 discarded: no secondary delay), 3 cases ===
+budget 10: cases 1; certificate holds 1; targeted vs uniform (better/equal/worse) (1, 0, 0); sequential vs uniform (1, 0, 0); sequential vs targeted (0, 1, 0); targeted optimal in 1, sequential optimal in 1, uniform optimal in 0; cases where flexibility can help 1; mean share of achievable reduction: uniform 0.500, targeted 1.000, sequential 1.000
+    certificate holds -> targeted <= uniform in all 1 (violations 0); strictly better in 1; targeted = optimal allocation in 1 of them
+    certificate fails (0): targeted vs uniform (0, 0, 0); fails already at theta=0 in 0
+budget 20: cases 1; certificate holds 1; targeted vs uniform (better/equal/worse) (1, 0, 0); sequential vs uniform (1, 0, 0); sequential vs targeted (0, 1, 0); targeted optimal in 1, sequential optimal in 1, uniform optimal in 0; cases where flexibility can help 1; mean share of achievable reduction: uniform 0.556, targeted 1.000, sequential 1.000
+    certificate holds -> targeted <= uniform in all 1 (violations 0); strictly better in 1; targeted = optimal allocation in 1 of them
+    certificate fails (0): targeted vs uniform (0, 0, 0); fails already at theta=0 in 0
+budget 25: cases 1; certificate holds 1; targeted vs uniform (better/equal/worse) (1, 0, 0); sequential vs uniform (1, 0, 0); sequential vs targeted (0, 1, 0); targeted optimal in 1, sequential optimal in 1, uniform optimal in 0; cases where flexibility can help 1; mean share of achievable reduction: uniform 0.543, targeted 1.000, sequential 1.000
+    certificate holds -> targeted <= uniform in all 1 (violations 0); strictly better in 1; targeted = optimal allocation in 1 of them
+    certificate fails (0): targeted vs uniform (0, 0, 0); fails already at theta=0 in 0
+budget all: cases 3; certificate holds 3; targeted vs uniform (better/equal/worse) (3, 0, 0); sequential vs uniform (3, 0, 0); sequential vs targeted (0, 3, 0); targeted optimal in 3, sequential optimal in 3, uniform optimal in 0; cases where flexibility can help 3; mean share of achievable reduction: uniform 0.533, targeted 1.000, sequential 1.000
+    certificate holds -> targeted <= uniform in all 3 (violations 0); strictly better in 3; targeted = optimal allocation in 3 of them
+    certificate fails (0): targeted vs uniform (0, 0, 0); fails already at theta=0 in 0
+
+=== station: 282 instances (18 discarded: no secondary delay), 564 cases ===
+budget 10: cases 282; certificate holds 249; targeted vs uniform (better/equal/worse) (102, 165, 15); sequential vs uniform (102, 174, 6); sequential vs targeted (14, 261, 7); targeted optimal in 258, sequential optimal in 260, uniform optimal in 163; cases where flexibility can help 149; mean share of achievable reduction: uniform 0.561, targeted 0.874, sequential 0.883
+    certificate holds -> targeted <= uniform in all 249 (violations 0); strictly better in 97; targeted = optimal allocation in 247 of them
+    certificate fails (33): targeted vs uniform (5, 13, 15); fails already at theta=0 in 11
+budget 20: cases 282; certificate holds 241; targeted vs uniform (better/equal/worse) (78, 180, 24); sequential vs uniform (89, 189, 4); sequential vs targeted (24, 249, 9); targeted optimal in 250, sequential optimal in 254, uniform optimal in 181; cases where flexibility can help 163; mean share of achievable reduction: uniform 0.686, targeted 0.836, sequential 0.894
+    certificate holds -> targeted <= uniform in all 241 (violations 0); strictly better in 77; targeted = optimal allocation in 237 of them
+    certificate fails (41): targeted vs uniform (1, 16, 24); fails already at theta=0 in 17
+budget all: cases 564; certificate holds 490; targeted vs uniform (better/equal/worse) (180, 345, 39); sequential vs uniform (191, 363, 10); sequential vs targeted (38, 510, 16); targeted optimal in 508, sequential optimal in 514, uniform optimal in 344; cases where flexibility can help 312; mean share of achievable reduction: uniform 0.626, targeted 0.854, sequential 0.889
+    certificate holds -> targeted <= uniform in all 490 (violations 0); strictly better in 174; targeted = optimal allocation in 484 of them
+    certificate fails (74): targeted vs uniform (6, 29, 39); fails already at theta=0 in 28
+
+=== junction: 70 instances (30 discarded: no secondary delay), 140 cases ===
+budget 20: cases 70; certificate holds 63; targeted vs uniform (better/equal/worse) (11, 57, 2); sequential vs uniform (11, 59, 0); sequential vs targeted (3, 65, 2); targeted optimal in 64, sequential optimal in 64, uniform optimal in 55; cases where flexibility can help 22; mean share of achievable reduction: uniform 0.477, targeted 0.785, sequential 0.800
+    certificate holds -> targeted <= uniform in all 63 (violations 0); strictly better in 8; targeted = optimal allocation in 60 of them
+    certificate fails (7): targeted vs uniform (3, 2, 2); fails already at theta=0 in 1
+budget 40: cases 70; certificate holds 61; targeted vs uniform (better/equal/worse) (8, 58, 4); sequential vs uniform (11, 59, 0); sequential vs targeted (5, 65, 0); targeted optimal in 64, sequential optimal in 69, uniform optimal in 58; cases where flexibility can help 22; mean share of achievable reduction: uniform 0.606, targeted 0.778, sequential 0.955
+    certificate holds -> targeted <= uniform in all 61 (violations 0); strictly better in 7; targeted = optimal allocation in 60 of them
+    certificate fails (9): targeted vs uniform (1, 4, 4); fails already at theta=0 in 2
+budget all: cases 140; certificate holds 124; targeted vs uniform (better/equal/worse) (19, 115, 6); sequential vs uniform (22, 118, 0); sequential vs targeted (8, 130, 2); targeted optimal in 128, sequential optimal in 133, uniform optimal in 113; cases where flexibility can help 44; mean share of achievable reduction: uniform 0.542, targeted 0.781, sequential 0.877
+    certificate holds -> targeted <= uniform in all 124 (violations 0); strictly better in 15; targeted = optimal allocation in 120 of them
+    certificate fails (16): targeted vs uniform (4, 6, 6); fails already at theta=0 in 3
+
+=== corridor: 20 instances (0 discarded: no secondary delay), 60 cases ===
+budget 4: cases 20; certificate holds 10; targeted vs uniform (better/equal/worse) (19, 1, 0); sequential vs uniform (20, 0, 0); sequential vs targeted (2, 18, 0); targeted optimal in 14, sequential optimal in 14, uniform optimal in 0; cases where flexibility can help 20; mean share of achievable reduction: uniform 0.252, targeted 0.903, sequential 0.943
+    certificate holds -> targeted <= uniform in all 10 (violations 0); strictly better in 10; targeted = optimal allocation in 10 of them
+    certificate fails (10): targeted vs uniform (9, 1, 0); fails already at theta=0 in 3
+budget 8: cases 20; certificate holds 6; targeted vs uniform (better/equal/worse) (18, 0, 2); sequential vs uniform (20, 0, 0); sequential vs targeted (8, 11, 1); targeted optimal in 11, sequential optimal in 13, uniform optimal in 0; cases where flexibility can help 20; mean share of achievable reduction: uniform 0.270, targeted 0.821, sequential 0.941
+    certificate holds -> targeted <= uniform in all 6 (violations 0); strictly better in 6; targeted = optimal allocation in 6 of them
+    certificate fails (14): targeted vs uniform (12, 0, 2); fails already at theta=0 in 3
+budget 16: cases 20; certificate holds 1; targeted vs uniform (better/equal/worse) (16, 0, 4); sequential vs uniform (20, 0, 0); sequential vs targeted (13, 7, 0); targeted optimal in 3, sequential optimal in 8, uniform optimal in 0; cases where flexibility can help 20; mean share of achievable reduction: uniform 0.300, targeted 0.715, sequential 0.928
+    certificate holds -> targeted <= uniform in all 1 (violations 0); strictly better in 1; targeted = optimal allocation in 1 of them
+    certificate fails (19): targeted vs uniform (15, 0, 4); fails already at theta=0 in 3
+budget all: cases 60; certificate holds 17; targeted vs uniform (better/equal/worse) (53, 1, 6); sequential vs uniform (60, 0, 0); sequential vs targeted (23, 36, 1); targeted optimal in 28, sequential optimal in 35, uniform optimal in 0; cases where flexibility can help 60; mean share of achievable reduction: uniform 0.274, targeted 0.813, sequential 0.937
+    certificate holds -> targeted <= uniform in all 17 (violations 0); strictly better in 17; targeted = optimal allocation in 17 of them
+    certificate fails (43): targeted vs uniform (36, 1, 6); fails already at theta=0 in 9

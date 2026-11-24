@@ -1,0 +1,227 @@
+{
+ "station": {
+  "instances": 282,
+  "discarded": 18,
+  "cases": 564,
+  "m": "2",
+  "pairs": [
+   5
+  ],
+  "budgets": [
+   10,
+   20
+  ],
+  "cert": 490,
+  "certTU": [
+   174,
+   316,
+   0
+  ],
+  "ncTU": [
+   6,
+   29,
+   39
+  ],
+  "TU": [
+   180,
+   345,
+   39
+  ],
+  "SU": [
+   191,
+   363,
+   10
+  ],
+  "ST": [
+   38,
+   510,
+   16
+  ],
+  "helped": 312,
+  "share": {
+   "uniform": 62.63758386243651,
+   "targeted": 85.44122366237751,
+   "sequential": 88.8949217018549
+  },
+  "certopt": 484,
+  "Topt": 508,
+  "Sopt": 514,
+  "Uopt": 344,
+  "fail0": 28,
+  "nobind": 334,
+  "sharecert": {
+   "uniform": 61.26303391463159,
+   "targeted": 97.53086419753086,
+   "sequential": 93.31221704678495
+  },
+  "sharenc": {
+   "uniform": 67.47839020035816,
+   "targeted": 42.86466351683743,
+   "sequential": 73.33835983492733
+  },
+  "helped_cert": 243,
+  "helped_nc": 69
+ },
+ "junction": {
+  "instances": 70,
+  "discarded": 30,
+  "cases": 140,
+  "m": "4",
+  "pairs": [
+   20
+  ],
+  "budgets": [
+   20,
+   40
+  ],
+  "cert": 124,
+  "certTU": [
+   15,
+   109,
+   0
+  ],
+  "ncTU": [
+   4,
+   6,
+   6
+  ],
+  "TU": [
+   19,
+   115,
+   6
+  ],
+  "SU": [
+   22,
+   118,
+   0
+  ],
+  "ST": [
+   8,
+   130,
+   2
+  ],
+  "helped": 44,
+  "share": {
+   "uniform": 54.16644758750022,
+   "targeted": 78.13029076186972,
+   "sequential": 87.7039627039627
+  },
+  "certopt": 120,
+  "Topt": 128,
+  "Sopt": 133,
+  "Uopt": 113,
+  "fail0": 3,
+  "nobind": 114,
+  "sharecert": {
+   "uniform": 44.06775868242034,
+   "targeted": 85.71428571428571,
+   "sequential": 80.95238095238095
+  },
+  "sharenc": {
+   "uniform": 71.83915317139001,
+   "targeted": 64.8582995951417,
+   "sequential": 99.51923076923077
+  },
+  "helped_cert": 28,
+  "helped_nc": 16
+ },
+ "corridor": {
+  "instances": 20,
+  "discarded": 0,
+  "cases": 60,
+  "m": "3",
+  "pairs": [
+   6,
+   12,
+   20,
+   30
+  ],
+  "budgets": [
+   4,
+   8,
+   16
+  ],
+  "cert": 17,
+  "certTU": [
+   17,
+   0,
+   0
+  ],
+  "ncTU": [
+   36,
+   1,
+   6
+  ],
+  "TU": [
+   53,
+   1,
+   6
+  ],
+  "SU": [
+   60,
+   0,
+   0
+  ],
+  "ST": [
+   23,
+   36,
+   1
+  ],
+  "helped": 60,
+  "share": {
+   "uniform": 27.43840399293873,
+   "targeted": 81.30779178573505,
+   "sequential": 93.73141635202644
+  },
+  "certopt": 17,
+  "Topt": 28,
+  "Sopt": 35,
+  "Uopt": 0,
+  "fail0": 9,
+  "nobind": 0,
+  "sharecert": {
+   "uniform": 24.607843137254903,
+   "targeted": 100.0,
+   "sequential": 100.0
+  },
+  "sharenc": {
+   "uniform": 28.557462935883503,
+   "targeted": 73.91784900335124,
+   "sequential": 91.25313909585084
+  },
+  "helped_cert": 17,
+  "helped_nc": 43
+ },
+ "total": {
+  "cases": 764,
+  "cert": 631,
+  "certT": [
+   206,
+   425,
+   0
+  ],
+  "ncT": [
+   46,
+   36,
+   51
+  ],
+  "T": [
+   252,
+   461,
+   51
+  ],
+  "S": [
+   273,
+   481,
+   10
+  ],
+  "helped": 416,
+  "certopt": 621,
+  "certstrict": 206,
+  "share": {
+   "uniform": 56.664793506025305,
+   "targeted": 84.07178385415422,
+   "sequential": 89.46652622854488
+  }
+ }
+}

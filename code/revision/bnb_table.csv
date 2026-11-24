@@ -1,0 +1,9 @@
+inst,pairs,amcc_start,optimum,plain_nodes,plain_ms,plain_status,plain_best,prop_nodes,prop_ms,prop_status,node_ratio
+K4s2#1,12,88,88,43,1.9,proven,88,1,0.7,proven,43.0
+K5s2#1,20,106,104,921,83.2,proven,104,51,46.6,proven,18.1
+K5s2#2,20,121,119,6425,656.6,proven,119,231,279.0,proven,27.8
+K6s2#1,30,136,132,19103,3231.8,proven,132,351,630.5,proven,54.4
+K5s3#1,30,136,135,5267,737.8,proven,135,71,166.2,proven,74.2
+K6s2#2,30,135,135,22231,3211.5,proven,135,525,1148.2,proven,42.3
+K6s3#7,45,128,127,1401,247.8,proven,127,145,417.6,proven,9.7
+K7s2#7,42,129,129,400000,89358.2,"capped, not proven",129,9337,19898.9,proven,42.8

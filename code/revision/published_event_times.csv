@@ -1,0 +1,58 @@
+delta,train,event,kind,this_paper,published,equal
+0,A,t3,input,107,107,True
+0,A,t4,output,160,160,True
+0,A,tstop,output,170,170,True
+0,A,t8,output,190,190,True
+0,A,tout,output,205,205,True
+0,B,t3,input,95,95,True
+0,B,t4,output,105,105,True
+0,B,tstop,output,115,115,True
+0,B,t8,output,160,160,True
+0,B,tout,output,175,175,True
+0,C,t6,input,112,112,True
+0,C,t7,output,137,137,True
+0,C,t8,output,175,175,True
+0,C,tout,output,190,190,True
+0,A,secondary delay at exit,output,41,41,True
+0,B,secondary delay at exit,output,0,0,True
+0,C,secondary delay at exit,output,13,13,True
+0,A,secondary delay at stop,output,41,41,True
+0,B,secondary delay at stop,output,0,0,True
+10,A,t3,input,107,107,True
+10,A,t4,output,150,150,True
+10,A,tstop,output,160,160,True
+10,A,t8,output,180,180,True
+10,A,tout,output,195,195,True
+10,B,t3,input,95,95,True
+10,B,t4,output,105,105,True
+10,B,tstop,output,115,115,True
+10,B,t8,output,150,150,True
+10,B,tout,output,165,165,True
+10,C,t6,input,112,112,True
+10,C,t7,output,137,137,True
+10,C,t8,output,165,165,True
+10,C,tout,output,180,180,True
+10,A,secondary delay at exit,output,31,31,True
+10,B,secondary delay at exit,output,-10,-10,True
+10,C,secondary delay at exit,output,3,3,True
+10,A,secondary delay at stop,output,31,31,True
+10,B,secondary delay at stop,output,0,0,True
+25,A,t3,input,107,107,True
+25,A,t4,output,135,135,True
+25,A,tstop,output,145,145,True
+25,A,t8,output,165,165,True
+25,A,tout,output,180,180,True
+25,B,t3,input,95,95,True
+25,B,t4,output,105,105,True
+25,B,tstop,output,115,115,True
+25,B,t8,output,135,135,True
+25,B,tout,output,150,150,True
+25,C,t6,input,112,112,True
+25,C,t7,output,137,137,True
+25,C,t8,output,180,180,True
+25,C,tout,output,195,195,True
+25,A,secondary delay at exit,output,16,16,True
+25,B,secondary delay at exit,output,-25,-25,True
+25,C,secondary delay at exit,output,18,18,True
+25,A,secondary delay at stop,output,16,16,True
+25,B,secondary delay at stop,output,0,0,True

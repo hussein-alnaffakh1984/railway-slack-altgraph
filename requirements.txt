@@ -1,4 +1,4 @@
-pulp<4
-numpy
+pulp==3.3.2
 scipy
+networkx
 matplotlib

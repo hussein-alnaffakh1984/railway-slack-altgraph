@@ -1,0 +1,5 @@
+inst,trains,pairs,best_value,lower_bound,status,seconds
+K7s2#1,7,42,149,,proven optimal,5.7
+K8s2#1,8,56,158,,proven optimal,121.5
+K9s2#1,9,72,177,162.000,"time limit, not proven",300.7
+K10s2#1,10,90,190,148.162,"time limit, not proven",300.9

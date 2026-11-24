@@ -1,0 +1,4 @@
+family,inst,m,pairs,budget,L0,b,n_binding0,uniform,targeted,sequential,optimal,opt_phi,certificate,first_fail_theta,grid_points,seq_targets,secs,max_solve_s
+published,published,2,5,10,41.0,B,1,36.0,31.0,31.0,31.0,0.00 10.00,True,,21,1111111111,0.4,0.01
+published,published,2,5,20,41.0,B,1,31.0,23.0,23.0,23.0,0.00 20.00,True,,41,11111111111111111111,1.0,0.02
+published,published,2,5,25,41.0,B,1,28.5,18.0,18.0,18.0,0.00 25.00,True,,51,1111111111111111111111111,1.7,0.02

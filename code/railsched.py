@@ -8,8 +8,9 @@ the route; conflicts arise on segments. Blocking semantics: a train releases a
 segment only when it enters the next resource.
 
 Provides: generator, longest-path + positive-cycle detection, exact MILP (CBC),
-baseline branch-and-bound, propagation branch-and-bound (novel), AMCC heuristic,
-FCFS heuristic, and the SRMO robust-optimal criterion (novel).
+plain branch-and-bound, branch-and-bound with forced-arc propagation (the immediate-selection
+idea of Carlier and Pinson; not a new method), the AMCC and FCFS constructive rules, and a
+stability-radius helper that is not used in the paper.
 """
 import itertools, random, time
 import networkx as nx
@@ -242,7 +243,7 @@ def solve_amcc(inst, headway=0):
 
 
 # ----------------------------------------------------------------------
-# Robustness:  stability radius and the novel SRMO criterion
+# Robustness helpers (not used in the paper)
 # ----------------------------------------------------------------------
 def stability_radius(inst, selection, due, headway=0):
     A = inst.alt_pairs(headway)
